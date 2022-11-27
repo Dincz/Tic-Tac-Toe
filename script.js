@@ -78,4 +78,9 @@ reset.addEventListener('click', ()=>{
 })
 
 
-console.log("heyt");
+musicP.addEventListener('click', ()=>{
+	music.play();
+})
+musicS.addEventListener('click', ()=>{
+	music.pause();
+})
